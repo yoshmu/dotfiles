@@ -1,0 +1,19 @@
+import:
+  - /home/yoshun/ghq/github.com/dracula/alacritty/dracula.yml
+selection:
+  save_to_clipboard: true
+font:
+  normal:
+    family: HackGenNerdConsole
+    style: Regular
+  bold:
+    family: HackGenNerdConsole
+    style: Bold
+  italic:
+    family: HackGenNerdConsole
+    style: Italic
+  size: 13.0
+background_opacity: 0.95
+
+key_bindings:
+  - { key: V, mods: Control, action: Paste }

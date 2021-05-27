@@ -1,0 +1,7 @@
+[user]
+	email = shunfrev@gmail.com
+	name = yoshmu
+[core]
+	pager = delta --line-numbers --dark
+[delta]
+	side-by-side = true
