@@ -1,7 +1,0 @@
-#
-# ~/.bash_profile
-# DO NOT WRITE ANYTHING BUT LOADING ~/.bashrc or ~/.profile
-#
-
-[[ -f ~/.bashrc ]] && . ~/.bashrc
-# . "$HOME/.cargo/env"
