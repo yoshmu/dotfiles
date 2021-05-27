@@ -16,6 +16,7 @@ alias apud='sudo apt upgrade'
 alias nr='npm run'
 alias ni='npm install'
 alias nid='npm install -D'
+
 # extended command line utils (mainly written in Rust)
 ## ls → exa
 if [ (command -v exa) ]
@@ -36,6 +37,41 @@ if [ (command -v bat) ]
     alias cat=bat
 end
 
-# OLD
-# alias pm='sudo pacman'
-# alias lr='libinput-gestures-setup restart'
+# git
+alias ga 'git add'
+alias gaa 'git add .'
+alias gaaa 'git add -A'
+alias gb 'git branch'
+alias gbd 'git branch -d '
+alias gc 'git commit'
+alias gcm 'git commit -m'
+alias gco 'git checkout'
+alias gcob 'git checkout -b'
+alias gcom 'git checkout master'
+alias gd 'git diff'
+alias gda 'git diff HEAD'
+alias gi 'git init'
+alias gl 'git log'
+alias gld 'git log --pretty=format:"%h %ad %s" --date=short --all'
+alias glg 'git log --graph --oneline --decorate --all'
+alias gp 'git pull'
+alias gr 'git restore'
+alias gs 'git status'
+alias gss 'git status -s'
+# npm
+alias nf 'npm cache clean && rm -rf node_modules && npm install'
+alias ni 'npm install'
+alias nid 'npm install --save-dev'
+alias nig 'npm install --global'
+alias nit 'npm install && npm test'
+alias nk 'npm link'
+alias nlg 'npm list --global --depth=0'
+alias nr 'npm run'
+alias ns 'npm start'
+alias nt 'npm test'
+
+# misc
+## kubecl
+alias kl kubectl
+## chezmoi, dotfile manager
+alias moi chezmoi
