@@ -9,10 +9,6 @@ swipe:
     down:
       command: "xdotool key super"
   4:
-    up:
-      command: "xdotool key super+Up"
-    down:
-      command: "xdotool key super+Down"
     begin:
       command: xdotool mousedown 1
     update:

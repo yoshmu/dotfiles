@@ -12,7 +12,7 @@ font:
   italic:
     family: HackGenNerdConsole
     style: Italic
-  size: 13.0
+  size: 17.0
 background_opacity: 0.95
 
 key_bindings:
